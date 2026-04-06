@@ -1,4 +1,4 @@
-# Driver Safety System (ADAS) & Smart Cockpit
+# Driver Safety System & Smart Cockpit
 
 A real-time Advanced Driver Assistance System (ADAS) that monitors driver alertness using AI and takes physical control of a vehicle model when the driver falls asleep. 
 
