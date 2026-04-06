@@ -95,11 +95,14 @@ python -m pip install opencv-python pyserial flask mediapipe==0.10.9
 HARDWARE CONFIGURATION
 
 1. Check Windows Device Manager to find your CH9102 COM Port
-COM_PORT = "COM3" 
+
+COM_PORT = "COM3"
+
 BAUD_RATE = 9600
 
-2. Enter the IP address provided by your Android IP Webcam app
+4. Enter the IP address provided by your Android IP Webcam app
 (Keep the /video at the end)
+
 for example:
 camera_source = "[http://192.168.](http://192.168.)x.x:8080/video" 
 
