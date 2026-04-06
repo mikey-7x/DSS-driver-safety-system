@@ -84,6 +84,7 @@ source .venv/bin/activate
 ```
 
 3.Install the required libraries:
+
 Note: MediaPipe MUST be downgraded to v0.10.9 to prevent submodule bugs on newer Python versions.
 ```powershell
 python -m pip install opencv-python pyserial flask mediapipe==0.10.9
