@@ -25,7 +25,7 @@ This project integrates a responsive, first-person web dashboard (Cockpit HUD) w
 ## 🔌 Circuit Diagram & Connections
 
 ![Circuit Diagram](dss.jpg)
-*crystal is 16mhz ans capacitors across it's is 22pf*
+*crystal is 16mhz and capacitors across it's is 22pf*
 
 🔸instead of bc547 use TIP122 transistor 
 
