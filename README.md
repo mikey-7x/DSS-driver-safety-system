@@ -142,3 +142,10 @@ Swap the connections between the CH9102 and the ATmega32A.
 'solutions': You have a corrupted MediaPipe installation or a local file named mediapipe.py confusing the compiler. 
 Ensure you installed exactly mediapipe==0.10.9.
 
+## 👨‍💻 Author
+**Mikey-7x** * GitHub: [@mikey-7x](https://github.com/mikey-7x)
+* Profile: Practical Electronics Engineer specializing in Analog Design, RF Systems, and Microcontroller/AI Integration.
+
+## 📄 License
+This project is open-source and available under the MIT License. You are free to copy, modify, and use this project for your own educational or commercial work.
+
