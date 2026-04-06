@@ -118,7 +118,7 @@ camera_source = "[http://192.168.](http://192.168.)x.x:8080/video"
 
 4.Run the Python server:
 ```
-python dss_cockpit.py
+python dss.py
 ```
 
 5.Open your web browser and go to: http://127.0.0.1:5000
@@ -126,12 +126,19 @@ python dss_cockpit.py
 
 ## 🎮 Dashboard Controls
 ​START SYSTEM: Initializes the ADAS monitoring.
+
 ​GAS / BRAKE: Adjusts the PWM speed of the DC Motor.
+
 ​STEERING: Rotates the SG90 Servo.
+
 ​FULLY MANUAL: Disables AI monitoring and locks the car in manual control.
 ​
 ## ⚠️ Troubleshooting
 ​MCU OFFLINE in Dashboard: Check if the Arduino IDE Serial Monitor is open in the background (it locks the COM port). Close it and restart the script.
-​WAITING... or Missing Data: Your TX/RX wires are likely backwards. Swap the connections between the CH9102 and the ATmega32A.
-​AttributeError: module 'mediapipe' has no attribute 'solutions': You have a corrupted MediaPipe installation or a local file named mediapipe.py confusing the compiler. Ensure you installed exactly mediapipe==0.10.9.
+​WAITING... or Missing Data: Your TX/RX wires are likely backwards. 
+Swap the connections between the CH9102 and the ATmega32A.
+
+​AttributeError: module 'mediapipe' has no attribute 
+'solutions': You have a corrupted MediaPipe installation or a local file named mediapipe.py confusing the compiler. 
+Ensure you installed exactly mediapipe==0.10.9.
 
