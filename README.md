@@ -111,12 +111,16 @@ camera_source = "[http://192.168.](http://192.168.)x.x:8080/video"
 ## 🚀 Step 4: Running the System
 
 1.Connect your CH9102 USB-to-TTL Converter to your laptop and the breadboard.
+
 2.Ensure the Serial wires are crossed (TX ➔ RX, RX ➔ TX) and they share a common GND.
+
 3.Start the IP Webcam server on your Android phone.
+
 4.Run the Python server:
 ```
 python dss_cockpit.py
 ```
+
 5.Open your web browser and go to: http://127.0.0.1:5000
 
 
