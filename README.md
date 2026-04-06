@@ -71,12 +71,13 @@ cd DSS-driver-safety-system
 ```
 
 2.Create and activate a virtual environment:
+
 -Windows:
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\activate
 ```
--Linux/Mac:
+-•Linux/Mac:
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
