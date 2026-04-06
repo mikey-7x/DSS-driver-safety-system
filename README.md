@@ -104,6 +104,7 @@ BAUD_RATE = 9600
 (Keep the /video at the end)
 
 for example:
+
 camera_source = "[http://192.168.](http://192.168.)x.x:8080/video" 
 
 
