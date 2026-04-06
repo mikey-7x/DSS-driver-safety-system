@@ -16,7 +16,7 @@ This project integrates a responsive, first-person web dashboard (Cockpit HUD) w
 * **Microcontroller:** Bare ATmega32A (with 16MHz Crystal Oscillator).
 * **Programmer:** USBasp (for flashing firmware/bootloader).
 * **Serial Communicator:** CH9102 USB-to-TTL Converter.
-* **Actuators:** SG90 Servo Motor (Steering), DC Motor with BC547 Transistor (Wheels).
+* **Actuators:** SG90 Servo Motor (Steering), DC Motor with TIP122 Transistor (Wheels).
 * **Sensors:** IR Proximity Sensor, 5V Active Buzzer, Push Button.
 * **Camera:** Android Phone via IP Webcam (or any standard webcam).
 
@@ -26,6 +26,9 @@ This project integrates a responsive, first-person web dashboard (Cockpit HUD) w
 
 ![Circuit Diagram](dss.jpg)
 *(Upload your circuit diagram to the repo and replace the link above)*
+
+
+🔸instead of bc547 use TIP122 transistor 
 
 **ATmega32A Pin Mapping (MightyCore Standard):**
 * `Pin 3 (PB2)` ➔ DC Motor (via BC547 Base resistor) - *PWM Speed Control*
