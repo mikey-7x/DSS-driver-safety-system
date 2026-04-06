@@ -30,7 +30,7 @@ This project integrates a responsive, first-person web dashboard (Cockpit HUD) w
 🔸instead of bc547 use TIP122 transistor 
 
 **ATmega32A Pin Mapping (MightyCore Standard):**
-* `Pin 3 (PB2)` ➔ DC Motor (via BC547 Base resistor) - *PWM Speed Control*
+* `Pin 3 (PB2)` ➔ DC Motor (via TIP122 Base resistor) - *PWM Speed Control*
 * `Pin 4 (PB3)` ➔ SG90 Servo Motor (Signal/Yellow wire) - *Steering*
 * `Pin 16 (PD2)` ➔ IR Proximity Sensor (OUT) - *Traffic detection*
 * `Pin 17 (PD3)` ➔ Buzzer (+) - *Wake-up Alarm*
