@@ -92,7 +92,6 @@ python -m pip install opencv-python pyserial flask mediapipe==0.10.9
 ## 🔧 Step 3: Configuration
 ​Before running the Python script, you must configure your hardware ports and camera IP. Open dss_cockpit.py in your code editor and modify the variables at the top of the file:
 
-=======================================
 HARDWARE CONFIGURATION
 
 1. Check Windows Device Manager to find your CH9102 COM Port
@@ -102,8 +101,7 @@ BAUD_RATE = 9600
 2. Enter the IP address provided by your Android IP Webcam app
 (Keep the /video at the end)
 for example:
-camera_source = "[http://192.168.](http://192.168.)x.x:8080/video"  
-=======================================
+camera_source = "[http://192.168.](http://192.168.)x.x:8080/video" 
 
 
 ## 🚀 Step 4: Running the System
