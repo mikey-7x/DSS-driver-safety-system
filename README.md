@@ -64,7 +64,7 @@ This project runs on Python 3.11+. It uses a virtual environment to prevent depe
 
 1. Clone the repository and navigate to the directory:
 ```bash
-   git clone https://github.com/mikey-7x/DSS-driver-safety-system.git
+git clone https://github.com/mikey-7x/DSS-driver-safety-system.git
 cd DSS-driver-safety-system
 ```
 
